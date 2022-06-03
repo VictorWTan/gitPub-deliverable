@@ -1,0 +1,19 @@
+{
+  "name": "gitpub-deliverable",
+  "version": "1.0.0",
+  "description": "![](/ga_cog.png)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/vtan8090/gitPub-deliverable.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "liquid-express-views": "^1.0.8"
+  }
+}

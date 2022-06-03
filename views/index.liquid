@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aliceblue;
+            color: rgb(31, 3, 54);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the GitPub</h1>
+    <ul>
+        {% for drink in allDrinks%}
+        <li>
+            <a href="/drinks/{{forloop.index0}}">{{drink.name}}</a>
+        </li>
+        {% endfor%}
+    </ul>
+</body>
+</html>
